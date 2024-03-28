@@ -83,7 +83,7 @@ public class Question2
 		
 		Shape square=new Square(12);
 		
-		System.out.println("IRCLE AREA:"+circle.area()+"\nCIRCLE PERIMETER:"+circle.perimeter());
+		System.out.println("CIRCLE AREA:"+circle.area()+"\nCIRCLE PERIMETER:"+circle.perimeter());
 		System.out.println("RECTANGLE AREA:"+rectangle.area()+"\nRECTANGLE PERIMETER:"+rectangle.perimeter());
 		System.out.println("SQUARE AREA:"+square.area()+"\nSQUARE PERIMETER:"+square.perimeter());
 		
