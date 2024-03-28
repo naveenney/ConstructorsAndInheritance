@@ -8,6 +8,7 @@ class LibraryManagementSystem {
 	String password;
 	List<User> userList;
 	Librarian librarian;
+	List <Book> bookList;
 
 	public void logIn() {
 
@@ -98,7 +99,7 @@ class Librarian {
 	String password;
 	String searchString;
 	List<Book> bookList;
-	Librarian librarian;
+	LibraryDatatabase libraryDataBase;
 
 	public void verifyLibrarian() {
 
@@ -113,6 +114,8 @@ class LibraryDatabase {
 	List<Book> bookList;
 
 	List<Account> accountList;
+
+	Librarian librarian;
 
 	public void add() {
 
